@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron:wght@500&family=Oswald&display=swap" rel="stylesheet">  
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    
+    <header class="encabezado">   
+        <!--Empieza el contendor para logo 1 y redes sociales-->
+        <div class="redes">
+
+            <div class="logo">
+                <a href="../index.html">
+                    <p class="animate__animated animate__fadeIn">EL ALEPH 2.0</p>
+
+                </a>                    
+
+            </div>
+
+
+        
+            <div class="logoRedes">
+            <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook.svg" alt="facebook"></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"><img src="../img/gorjeo.svg" alt="twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.svg" alt="instagram"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="../img/youtube.svg" alt="youtube"></a>
+            </div>
+
+        </div>   
+
+        <div class="publicidad"> <img src="../img/12708469731022693022.gif" alt=""></div>
+
+          <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img src="../img/b946a34512fa4a57bee1f5a49a34a8ed1.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalogo.html">Catalogo</a>
+                      </li>  
+                    <li class="nav-item">
+                      <a class="nav-link" href="#linkContacto">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+        </div>
+    </header>
+
+<div class="container">
+<div class="row">
+
+    <main id="items" class="col-sm-8 row">
+    </main>
+
+    <aside class="col-sm-4 carrito">
+        <div id="contenedorTotal">
+          <h2>CARRITO</h2><hr style="border: 1px solid black;">
+          <ul id="carrito" class="list-group"></ul>
+          <hr>
+          <p class="text-right">Total: $<span id="total">0.00</span></p>
+          <button id="botonFinalizar" class="btn btn-danger">Finalizar Compra</button>
+        </div>
+    </aside>
+    
+</div>
+</div>
+
+    <a name="linkContacto">
+      <footer>
+          <div class="direccion">
+          <h3>Libreria El Aleph</h3>
+          <p> 25 de Mayo 241 <br> Moron <br> B1708JAE <br> Gran Buenos Aires <br> Provincia de Buenos Aires</p>
+        </div>
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4917.649545867362!2d-58.62293964451975!3d-34.65123415023739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc766d45520e7%3A0x2f33f992b428daa2!2s25%20de%20Mayo%20241%2C%20B1708JAE%20Mor%C3%B3n%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1633029882431!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="contacto">
+         <h3>Horarios</h3> 
+         <p>Lunes a Sabados: 9:00 - 20:00 <br> Domingos cerrado</p>
+         <h3>Contacto</h3>
+          <p>Telefono: 011 4627-4446 <br> Mail: elaleph@gmail.com</p>
+        </div>  
+      </footer>
+      </a>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="../js/simulador2.js"></script>
+
+</body>
+</html>

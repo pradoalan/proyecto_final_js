@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(250, 232, 174);
+}
+
+.encabezado{
+    width: 100%;
+    display: inline;
+}
+
+.redes{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(224, 96, 107);
+    position: sticky;
+    top: 0px;
+    z-index: 300;
+    padding: 0px 90px;
+
+}
+
+
+.logo a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+.logo p{
+    margin-bottom: 0;
+
+}
+
+.logo img{
+    height: 30px;
+    width: auto;
+}
+
+.publicidad{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    background-color: rgb(250, 232, 174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 50px;
+    z-index: 300;
+    border-bottom: 1px solid black;
+    margin: 0px 90px;
+
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.nav-link{
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-link:hover{
+    border-bottom: 3px solid orangered;
+}
+
+.logoRedes img{
+    height: 30px;
+    margin-left: auto;
+
+}
+
+.presentacion{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../img/alfons-morales-YLSwjSy7stw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.presentacion h1 {
+    font-size: 70px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.presentacion h2{
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+#verCatalogo{
+    margin: 20px;
+}
+
+.cajaItems{
+    background-color: rgb(250, 232, 174);
+}
+
+.cajaInfo{
+    border: 2px solid black;
+    font-size: 15px;
+    margin: 10px 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(250, 232, 174);
+}
+
+.cajaInfo h3{
+    font-size: 20px;
+}
+
+.cajaInfo p{
+    margin-bottom: 8px;
+}
+
+.enCarrito{
+    background-color: rgb(253, 255, 153);
+}
+
+#contenedorTotal{
+    position: sticky;
+    top: 130px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.totalFinal{
+    margin: 10px;
+    font-size: 20px;
+}
+
+footer{
+    height: 320px;
+    background-color: rgb(224, 96, 107);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.direccion h3{
+    font-weight: bold;
+}
+
+.contacto h3{
+    font-size: 18px;
+    font-weight: bold
+}
